@@ -1,4 +1,4 @@
-# 💬 Do They Like Me? — TikTok/Twitter Sentiment Analyser
+# 💬 Do They Like Me? — Text Sentiment Analyser
 
 A fun, interactive sentiment analysis app for analysing text messages and conversations. Upload a chat or type a message to find out what someone *really* thinks of you.
 
@@ -31,8 +31,8 @@ Built with a fine-tuned RoBERTa model trained on Twitter data, wrapped in a Stre
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/nlp-sentiment-analysis.git
-cd nlp-sentiment-analysis
+git clone https://github.com/TrevorSithisakd/NLP-Sentiment-Analysis.git
+cd NLP-Sentiment-Analysis
 ```
 
 ### 2. Install dependencies
@@ -62,7 +62,7 @@ python app.py messages.txt
 ## Project Structure
 
 ```
-nlp-sentiment-analysis/
+NLP-Sentiment-Analysis/
 ├── app.py                # CLI entry point (interactive + batch file mode)
 ├── streamlit_app.py      # Streamlit web UI
 ├── predictor.py          # Model loading and inference
